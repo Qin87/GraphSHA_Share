@@ -8,7 +8,7 @@ Implementation of KDD'23 paper [GraphSHA: Synthesizing Harder Samples for Class-
 
 This repository has been tested with the following packages:
 
-- Python == 3.8.13
+- Python == 3.10
 - PyTorch == 1.11.0
 - PyTorch Geometric == 2.0.4
 
