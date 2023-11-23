@@ -28,6 +28,7 @@ def sampling_idx_individual_dst(class_num_list, idx_info, device):
 
     return sampling_src_idx, sampling_dst_idx
 
+
 def test_directed(edge_index):
     set_edges = set()
     bi_direct = 0
