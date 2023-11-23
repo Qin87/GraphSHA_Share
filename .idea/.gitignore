@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+*.pt
+*.npz
+*.x
+*.allx
+*.ally
+*.y
+/vcs.xml
+/inspectionProfiles/profiles_settings.xml
