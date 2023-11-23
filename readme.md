@@ -1,3 +1,22 @@
+Qin ReadMe:
+## How to Run
+setup parameters in args.py by default values
+run main.py
+
+## Important Hyper-parameters
+- '--AugDirect': 1 is only one directed edge, 2 is double edges augmented, 
+- `--dataset`: name of the dataset. Could be one of `['Cora', 'CiteSeer', 'PubMed', 'Amazon-Photo', 'Amazon-Computers', 'Coauthor-CS']`.
+- `--imb_ratio`: imbalance ratio.
+- `--net`: GNN backbone. Could be one of `['GCN, GAT, SAGE']`.
+- `--gdc`: way to get the weighted graph. Could be one of `['ppr', 'hk', 'none']`.
+
+
+
+
+
+
+
+######################################################################
 # GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification
 
 Implementation of KDD'23 paper [GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification](https://arxiv.org/abs/2306.09612).
